@@ -1,0 +1,46 @@
+
+<style>
+    div.img
+    {
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid #0000ff;
+        height: auto;
+        width: auto;
+        float: left;
+        text-align: center;
+    }
+    div.img img
+    {
+        display: inline;
+        margin: 5px;
+        border: 1px solid #ffffff;
+    }
+    div.img a:hover img {border: 1px solid #0000ff;}
+    div.desc
+    {
+        text-align: center;
+        font-weight: normal;
+        width: 120px;
+        margin: 5px;
+    }
+</style>
+
+<p> Welcome to the page of Tammy the Doggy!. That`s me below! </p>
+
+<div class="img">
+  <%= image_tag("tammy1.jpg") %>
+  <div class="desc">Here is Tammy doing some study</div>
+</div>
+<div class="img">
+  <%= image_tag("tammy2.jpg") %>
+  <div class="desc">Tammy in the sitting room</div>
+</div>
+<div class="img">
+  <%= image_tag("tammy3.jpg") %>
+  <div class="desc">Tammy chilling on the kitchen floor</div>
+</div>
+<div class="img">
+  <%= image_tag("tammy4.jpg") %>
+  <div class="desc">Tammy watchin tv (Tom in the background)</div>
+</div>

@@ -1,0 +1,9 @@
+def seq(n)
+   answers = Array.new
+   puts "\n entering seq: #{n),#{answers}"
+   answers << n
+   if (answers.size == 4)
+     then  return answers
+   else answers << seq((n * 2) - 3)
+   end
+ end
